@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px">
+        <ImageView
+        android:layout_width="89.0dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/loginpic"
+        android:layout_gravity="center"
+        android:src="@drawable/logggg"/>
+            <EditText
+        android:layout_width="169.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_gravity="center"
+        android:hint="Enter username"
+        android:id="@+id/username1"/>
+        <EditText
+        android:layout_width="169.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:hint="Enter password"
+        android:id="@+id/pass11"/>
+        <ImageButton
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="35dp"
+            android:id="@+id/ivbtn2"
+            android:src="@drawable/conting"
+            android:layout_gravity="center"
+            android:background="@android:color/white"/>
+
+
+</LinearLayout>

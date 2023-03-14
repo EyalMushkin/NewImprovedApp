@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:layout_width="145.0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/iv1"
+        android:layout_gravity="center"
+        android:src="@drawable/Welcomr"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up to continue"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        />
+
+    
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="169.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Enter email"
+        android:id="@+id/email"/>
+        <EditText
+        android:layout_width="169.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:hint="Create username"
+        android:id="@+id/username"/>
+        <EditText
+        android:layout_width="169.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:hint="Create password"
+        android:id="@+id/pass1"/>
+        <EditText
+        android:layout_width="169.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:hint="Confirm password"
+        android:id="@+id/pass2"/>
+
+        <ImageButton
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/ivbtn1"
+            android:src="@drawable/conting"
+            android:layout_gravity="center"
+            android:background="@android:color/white"   
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logint"
+            android:layout_marginTop="30dp"
+            android:text="Already have an account?"
+            android:layout_gravity="center"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textColor="@android:color/black"
+        />
+    
+</LinearLayout>

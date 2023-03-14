@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "818780400614",
+    "project_id": "hifivestorage-8b9ef",
+    "storage_bucket": "hifivestorage-8b9ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818780400614:android:9009adc2ac78379dc8c427",
+        "android_client_info": {
+          "package_name": "com.companyname.thisnewapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818780400614-ggdemdvb5au3sav3dg73g6qgp5ojkchp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3gperHzxqsvlhnUbZZZf_Q3U5y_-pGMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818780400614-ggdemdvb5au3sav3dg73g6qgp5ojkchp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
